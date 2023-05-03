@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  background-image: url(img/1137353.jpg);
+}
+
+body .title{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.tab-panel{
+  margin: 0 40px 0;
+}
+
+.tab-group{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+}
+
+.tab {
+  color: #111111;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  list-style: none;
+  border: solid 1px #111111;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  height: 35px;
+}
+
+.panel-group {
+  border: solid 1px #111111;
+  border-top: none;
+}
+
+.panel {
+  display: none;
+  border-top: solid 1px #111111;
+}
+
+.tab.active {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border: solid 1px #111111;
+  border-bottom: none;
+  background-color: #ddc8c8;
+}
+
+.panel.active {
+  display: block;
+  border-top: #fff;
+}
+
+.menu-group {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  background-color: #ddc8c8;
+}
+
+.menu-group .menu1 {
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-group .menu1 img {
+  margin: 25px 5px 5px 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.menu-group .menu1 p {
+  text-align: center;
+  font-size: 1em;
+  width: 100px;
+}
+
+
+@media screen and (min-width:1280px)
+{
+
+body {
+  margin: 0;
+}
+
+body .title {
+  text-align: center;
+  font-size: 3em;
+}
+
+body .wrap {
+  margin: 0 10% 0;
+  padding: 5px;
+  background-color: #d47474;
+  background-image: url(img/1137353.jpg);
+}
+
+.tab-panel {
+  margin: 0 40px 0;
+}
+
+.tab-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.tab {
+  color: #111111;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  list-style: none;
+  border: solid 1px #111111;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.panel-group {
+  border: solid 1px #111111;
+  border-top: none;
+}
+
+.panel {
+  display: none;
+  border-top: solid 1px #111111;
+}
+
+.tab.active {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border: solid 1px #111111;
+  border-bottom: none;
+  background-color: #ddc8c8;
+}
+
+.panel.active {
+  display: block;
+  border-top: #fff;
+}
+
+.menu-group {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  background-color: #ddc8c8;
+}
+
+.menu-group .menu1 {
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-group .menu1 img {
+  margin: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.menu-group .menu1 p {
+  text-align: center;
+  line-height: 300px;
+}
+/*# sourceMappingURL=Tomei.css.map */
+}
