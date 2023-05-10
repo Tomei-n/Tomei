@@ -9,7 +9,14 @@ body{
   background-image: url(img/1137353.jpg);
 }
 
-body .title{
+body .title {
+  text-align: center;
+  background-color: #fff;
+  color: red;
+  margin: 0;
+}
+
+body .sub-title{
   text-align: center;
   font-size: 3rem;
 }
@@ -70,11 +77,11 @@ body .title{
 }
 
 .menu-group .menu1 {
-  padding: 0 10%;
+  padding: 30px 10% 0;
 }
 
 .menu-group .menu1 img {
-  margin: 25px 5px 5px 5px;
+  margin: 25px 5px 0px 5px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -171,9 +178,6 @@ body .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .menu-group .menu1 img {
@@ -186,8 +190,12 @@ body .wrap {
 }
 
 .menu-group .menu1 p {
+  width: 100%;
+  padding: 0 10px;
   text-align: center;
-  line-height: 300px;
+  line-height: 15;
+  font-size: 1.5em;
+  border-bottom: 0;
 }
 /*# sourceMappingURL=Tomei.css.map */
 }
