@@ -96,6 +96,10 @@ body .sub-title{
   border-bottom: 2px solid #111111;
 }
 
+.footer {
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (min-width:1280px)
 {
@@ -111,13 +115,8 @@ body .title {
 
 body .wrap {
   margin: 0 10% 0;
-  padding: 5px;
   background-color: #d47474;
   background-image: url(img/1137353.jpg);
-}
-
-.tab-panel {
-  margin: 0 40px 0;
 }
 
 .tab-group {
@@ -141,6 +140,10 @@ body .wrap {
   text-align: center;
   cursor: pointer;
   background-color: #fff;
+}
+
+.tab-panel {
+  margin: 0;
 }
 
 .panel-group {
