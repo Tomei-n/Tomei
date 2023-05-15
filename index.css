@@ -49,6 +49,7 @@ body .sub-title{
 .panel-group {
   border: solid 1px #111111;
   border-top: none;
+  background-color: #ddc8c8;
 }
 
 .panel {
@@ -73,12 +74,13 @@ body .sub-title{
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
-  background-color: #ddc8c8;
-}
+  background-color: #ddc8c8;}
 
 .menu-group .menu1 {
-  padding: 30px 10% 0;
+  padding: 15px 10% 0;
   text-align: center;
+  margin-bottom: 15px;
+  
 }
 
 .menu-group .menu1 img {
