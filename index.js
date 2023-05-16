@@ -9,5 +9,5 @@ $(function() {
 });
 
 $(window).on('load',function() {
-  $('.menu1 > img').css('background','none');
+  $('.loading').hide();
 });
