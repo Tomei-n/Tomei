@@ -90,7 +90,7 @@ body .sub-title{
   width: 70%;
   height: 100%;
   border-radius: 20px;
-  background-image: url(https://assets10.lottiefiles.com/packages/lf20_peqRFlOegL.json);
+  background-image: url(img/loading.gif);
   background-repeat: no-repeat;
   background-position: center center;
 }
