@@ -4,6 +4,22 @@
   padding: 0;
 }
 
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: 0,0,0,0.5;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .spinner {
+  }
+
 body{
   margin: 0;
   background-image: url(img/1137353.jpg);
@@ -90,9 +106,6 @@ body .sub-title{
   width: 70%;
   height: 100%;
   border-radius: 20px;
-  background-image: url(img/loading.gif);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .menu-group .menu1 p {
