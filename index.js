@@ -7,3 +7,7 @@ $(function() {
     $('.panel').eq(index).addClass('active');
   });
 });
+
+$(window).on('load',function() {
+  $('.menu1').css('background-img','none');
+});
