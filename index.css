@@ -18,7 +18,7 @@
   }
 
   .spinner {
-    width:100%;
+    width: 100%;
   }
 
 body{
@@ -101,10 +101,10 @@ body .sub-title{
 }
 
 .menu-group .menu1 img {
-  margin: 25px 5px 0px 5px;
+  margin: 50px 5px 0px 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 80%;
+  width: 90%;
   height: 100%;
   border-radius: 20px;
 }
