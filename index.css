@@ -122,6 +122,10 @@ body .sub-title{
   padding: 2px;
   border-radius: 10px;
 }
+a {
+  color: ;
+  text-decoration: none;
+}
 
 .footer {
   width: 100%;
