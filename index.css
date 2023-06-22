@@ -38,7 +38,6 @@ body .mainwrap::before {
   background-image: url(img/mise20.jpg);
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 body .title {
