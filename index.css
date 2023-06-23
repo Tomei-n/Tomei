@@ -37,7 +37,6 @@ body .mainwrap::before {
   margin: 0;
   background-image: url(img/mise20.jpg);
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
