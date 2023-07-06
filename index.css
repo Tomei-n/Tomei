@@ -140,7 +140,7 @@ body .sub-title{
   display: flex;
   justify-content: space-around;
   background-color: #ddc8c8;
-  background: linear-gradient(270deg,transparent 10%, #fff);
+  background: linear-gradient(190deg,transparent -50%, #fff);
   margin: 10px 13px;
   padding: 2px;
 }
